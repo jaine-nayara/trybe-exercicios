@@ -10,12 +10,11 @@ console.log("O fatorial de ",n,"é ",fat);
 //Utilize a estrutura de repetição for para desenvolver um algoritmo que seja capaz de inverter uma palavra. Por exemplo, a palavra “banana” seria invertida para “ananab”.
 
 let word = 'tryber';
-let inv = [];
-let index = word.length;
-for (let i=1;i<=index;i+=1){
-    inv.push(word[index - i]);
+let invertida = "";
+for (let i=word.length-1; i>=0; i-=1){
+    invertida += word[i];
 }
-console.log(inv);
+console.log(invertida);
 
 //Utilize a estrutura de repetição for para escrever dois algoritmos: um que imprima no console a maior palavra desse array e outro que imprima a menor. Considere o número de caracteres de cada palavra.
 
