@@ -1,0 +1,17 @@
+#body {
+  background-color: green;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-around;
+  border: solid 1px black;
+}
+section {
+  display: flex;
+flex-direction: column;
+}
+#text{
+  align-items: center;
+}
