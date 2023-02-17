@@ -30,4 +30,17 @@ function listaKey(objeto) {
   const chaves = Object.keys(objeto);
   return chaves;
 }
-console.log(listaKey(lesson1))
+console.log(listaKey(lesson1));
+
+/* Crie uma função para mostrar o tamanho de um objeto. */
+function tamanhoObjeto(objeto){
+  const tamanho = Object.keys(objeto).length;
+  return tamanho
+}
+console.log(tamanhoObjeto(lesson1));
+
+function allLessons() {
+  const all = Object.assign({},{lesson1,lesson2,lesson3});
+  return all
+}
+console.log(allLessons())
